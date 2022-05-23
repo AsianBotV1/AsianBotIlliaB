@@ -24,16 +24,16 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-  ────  *DyLux  ┃ ᴮᴼᵀ*  ────
+  ────  *Asian-IlliaB  ┃ ᴮᴼᵀ*  ────
 
-👋🏻 _Hola_ *%name*
+👋🏻 _Hii Hii_ *%name*
 
 🏆 Rango : *%role*
 🧿 Nivel : *%level* 
 👥 Usuarios : %totalreg
 ─────────────
 ▢ Crea tu propio bot 
-• https://youtu.be/jeXHB0IIzCM
+• https://youtu.be/
 ▢ Descarga *FGWhatsApp*
 • https://fgwhatsapp.ml
 ─────────────
@@ -149,7 +149,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   //const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
 const pp = await (await fetch('https://i.ibb.co/qMG1JPY/fg.jpg')).buffer()
     
-    conn.sendHydrated(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98._\n', pp, 'https://youtube.com/fg98f', 'YouTube', null, null, [
+    conn.sendHydrated(m.chat, text.trim(), '▢ IlliaB𖠌 ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram._\n', pp, 'https://youtube.com', 'YouTube', null, null, [
       ['ꨄ︎ Apoyar', '/donate'],
       ['⏍ Info', '/botinfo'],
       ['✆ Owner', '/owner']
