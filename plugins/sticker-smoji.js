@@ -40,7 +40,7 @@ Solo puede usar 1 emoji, preste atención a los espacios`
         case 'ap':
           emoji.get(`${args[1]}`)
             .then(async emoji => {
-              let stiker = await sticker(false, emoji.images[0].url, '🔮 DyLux ┃ ᴮᴼᵀ', '💎 @fg98._')
+              let stiker = await sticker(false, emoji.images[0].url, '🔮 Asian-IlliaB𖠌 ┃ ᴮᴼᵀ', '💎 @IlliaB._')
               conn.sendFile(m.chat, stiker, null, { asSticker: true }, m)
             })
           break
