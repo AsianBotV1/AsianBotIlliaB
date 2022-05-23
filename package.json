@@ -1,5 +1,5 @@
 {
-    "name": "dylux-fg",
+    "name": "Asian-IlliB",
     "version": "1.2.5",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
@@ -26,9 +26,9 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/FG98F/dylux-fg",
+    "homepage": "https://github.com/IlliaB",
     "author": {
-        "name": "FG98"
+        "name": "AsianBot-IlliaB"
     },
     "repository": {
         "type": "git",
